@@ -1,4 +1,4 @@
-MIXIN = skeletor
+MIXIN = kioshi
 PKG = github.com/deislabs/porter-$(MIXIN)
 SHELL = bash
 
@@ -113,4 +113,4 @@ clean: clean-packr
 	-rm -fr bin/
 
 clean-packr: packr2
-	cd pkg/skeletor && packr2 clean
+	cd pkg/kioshi && packr2 clean

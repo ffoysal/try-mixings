@@ -1,0 +1,5 @@
+install:
+  - kioshi:
+      description: "Invalid Input Test Case"
+      args:
+      - yarrrr
